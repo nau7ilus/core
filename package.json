@@ -23,6 +23,5 @@
   "dependencies": {
     "axios": "^0.20.0",
     "html-table-to-json": "^1.0.0"
-  },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  }
 }
