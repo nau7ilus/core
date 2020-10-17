@@ -1,0 +1,23 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "Полезные функции для моих ботов",
+  "main": "./src/index.js",
+  "repository": "https://github.com/nieopierzony/core.git",
+  "author": "Philipp <43653566+bumagaga@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ext .js src",
+    "lint:fix": "eslint --fix --ext .js src",
+    "test": "nodemon ./test"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.5",
+    "prettier": "^2.1.2"
+  }
+}
