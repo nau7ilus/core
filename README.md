@@ -63,7 +63,7 @@ const fractionID = 1;
 
 Тип: `number`
 
-Порядочный номер сервера Arizona RP
+Порядковый номер сервера Arizona RP
 
 #### fractionID
 
