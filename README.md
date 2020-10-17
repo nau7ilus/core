@@ -74,7 +74,7 @@ ID фракции, как указано на самом сервере
 Возвращает массив игроков во фракции:
 
 ```js
-// core.methods.getFractionPlayers(1, 2);
+// core.getFractionPlayers(1, 2);
 /**
  * => [
  *    { id: '1', nickname: 'Vasya_Pupkin', rank: 1, online: true },
