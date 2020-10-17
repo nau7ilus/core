@@ -1,6 +1,6 @@
 {
   "name": "@nieopierzony/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Полезные функции для моих ботов",
   "main": "./src/index.js",
   "repository": "https://github.com/nieopierzony/core.git",
