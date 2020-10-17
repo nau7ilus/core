@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="poster" src="./assets/poster.jpg" >
+  <img alt="poster" src="https://github.com/nieopierzony/core/raw/main/assets/poster.jpg" >
 </p>
 <h1 align="center">Bot Core ⚙️</h1>
 
