@@ -55,7 +55,7 @@ const fractionID = 1;
 
 ## API
 
-### core.getFractionPlayers(serverID, fractionID);
+### core.getFractionPlayers(serverID, fractionID, requestConfig);
 
 > Обратите внимание: не делайте сразу много запросов на сайт, иначе ваш IP могут заблокировать
 
@@ -70,6 +70,13 @@ const fractionID = 1;
 Тип: `number`
 
 ID фракции, как указано на самом сервере
+
+#### requestConfig
+
+Тип: `Object`
+По умолчанию: `{}`
+
+Конфигурация запроса [Axios](https://github.com/axios/axios#axioscreateconfig)
 
 Возвращает массив игроков во фракции:
 
