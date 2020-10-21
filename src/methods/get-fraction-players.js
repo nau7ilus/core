@@ -9,8 +9,9 @@ const SITE_URL = 'https://arizona-rp.com/mon/fraction/';
  * Получение информации о фракции (весь список игроков, их ранги, статус)
  * @param {number} server Порядковый номер сервера
  * @param {number} fractionID ID фракции, как указано на самом сервере
+ * @param {Object} requestConfig Конфиг для запроса axios
  */
-module.exports = async (server, fractionID) => {
+module.exports = async (server, fractionID, requestConfig = {}) => {
   // Проверяем валидность указанных аргументов
   const validArgs = server && fractionID;
   const validTypes = typeof server === 'number' && typeof fractionID === 'number';
@@ -19,7 +20,7 @@ module.exports = async (server, fractionID) => {
   }
 
   // Запрашиваем HTML с сайта Аризоны
-  const response = await axios.get(`${SITE_URL + server}/${fractionID}`);
+  const response = await axios.get(`${SITE_URL + server}/${fractionID}`, requestConfig);
   const isSuccess = response && response.status === 200 && response.data;
   if (!isSuccess) throw new Error('Ошибка при получении данных с сайта');
 
