@@ -14,6 +14,7 @@ const serverNames = [
   'Prescott',
   'Glendale',
   'Kingman',
+  'Winslow',
 ];
 
 const fractionNames = [
@@ -44,6 +45,8 @@ const fractionNames = [
   'Night Wolfs',
   'Новостное агенство СФ',
   'Армия г.Сан-Фиерро',
+  'Темное братство',
+  'Страховая компания',
 ];
 
 module.exports = {
